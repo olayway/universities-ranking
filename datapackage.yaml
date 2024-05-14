@@ -1,32 +1,13 @@
 title: Top 1000 universities in the world
 description: In this project, the ranking of the top 1000 universities in the world has been reviewed and analyzed.
+updated: 2024-05-01
 licenses:
-- path: https://www.apache.org/licenses/LICENSE-2.0
-  title: Apache 2.0
-  resources:
-- format: csv
-	name: vix-daily
- 	path: data/vix-daily.csv
-  schema:
-    fields:
-    - format: any
-      name: Date
-      type: date
-    - format: default
-      name: VIX Open
-      type: number
-    - format: default
-      name: VIX High
-      type: number
-    - format: default
-      name: VIX Low
-      type: number
-    - format: default
-      name: VIX Close
-      type: number
-    missingValues:
-    - ''
-    title: VIX Daily
+  - title: Apache 2.0
+    path: https://www.apache.org/licenses/LICENSE-2.0
 sources:
-- path: https://www.kaggle.com/datasets/zahrayazdani81/univercitiesranking?resource=download
-  title: Universities Ranking
+  - title: Kaggle dataset
+    path: https://www.kaggle.com/datasets/zahrayazdani81/univercitiesranking?resource=download
+resources:
+  - name: Universities Ranking
+    description: Top 1000 Global Universities Analysed
+    path: data.csv
