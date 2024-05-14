@@ -1,3 +1,20 @@
+---
+datapackage:
+  title: Top 1000 universities in the world
+  description: "In this project, the ranking of the top 1000 universities in the world has been reviewed and analyzed."
+  updated: 2024-05-01
+  licenses:
+	  - title: Apache 2.0
+ 		  path: link
+  sources:
+    - title: Kaggle dataset
+	    path: https://www.kaggle.com/datasets/zahrayazdani81/univercitiesranking?resource=download
+  resources:
+    - name: Universities Ranking
+	    description: Top 1000 Global Universities Analysed
+	    path: data.csv
+---
+
 # Analyzing the Dataset of the Top 1000 Global Universities
 
 In this project, the ranking of the top 1000 universities in the world has been reviewed and analyzed.
